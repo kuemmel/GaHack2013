@@ -1,0 +1,3 @@
+- Es laesst sich darueber streiten, ob es nicht noch noetig ist einen ueberklasse samt Liste an Workshops (usw) einzufuehren.
+- Bei der Spezifikationen fehlen einige Attribute(Keine Referenten/Teams bei den Rahmenprogrammen? Keine Zeiten bei den Workshops?)
+ 

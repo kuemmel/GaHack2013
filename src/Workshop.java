@@ -1,6 +1,11 @@
 import java.util.*;
 import java.io.IOException;
 
+/**
+ * Referent/Leider/Team fehlen. Ausserdem liessen sich Rahmenprogramm und Workshop nochmal abstrahieren
+ *
+ */
+
 public class Workshop 
 {
 	private int nummer; 
@@ -15,6 +20,7 @@ public class Workshop
 		this.bezeichnung = bezeichnung;
 		this.datum = datum;
 		this.referent = referent;
+		this.teilnehmer = new ArrayList<Mensch>();
 	}
 
 	public void teilnehmerAnmelden(Mensch teilnehmer) 
