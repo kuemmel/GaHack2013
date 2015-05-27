@@ -1,8 +1,9 @@
+import java.io.IOException;
 
 public class Mensch
 {
-	private String name;
-	private String email;
+	protected String name;
+	protected String email;
 
 	public Mensch(String name, String email) throws IOException
 	{
@@ -16,11 +17,11 @@ public class Mensch
 		}
 	}
 
-	public getName()
+	public String getName()
 	{
 		return this.name;
 	}
-	public getEmail()
+	public String getEmail()
 	{
 		return this.email;
 	}
